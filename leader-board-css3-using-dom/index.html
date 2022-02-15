@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./images/icons/logo.png"
+      type="image/x-icon"
+    />
+    <script
+      src="https://kit.fontawesome.com/f1ba03bb0d.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Leader Board</title>
+  </head>
+  <body>
+    <!-- header start -->
+    <header>
+      <nav>
+        <div class="navbar">
+          <span class="logo">
+            <a href=""><img src="./images/icons/logo.png" alt="" /></a>
+            <a href="">Idea</a>
+          </span>
+          <span class="right" id="big-display">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Works</a>
+            <a href=""><img src="./images/icons/profile.png" alt="" /></a>
+          </span>
+          <span id="small-display">
+            <a href=""><img src="./images/icons/profile.png" alt="" /></a>
+            <a href=""><i class="fas fa-bars"></i></a>
+          </span>
+          <div class="right-nav-container">
+            <a class="profile-image" href=""
+              ><img src="./images/icons/profile.png" alt=""
+            /></a>
+            <ul class="right-nav-content">
+              <li><a href="">Home</a></li>
+              <li><a href="">About</a></li>
+              <a href="">Works</a>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- header end -->
+    <main>
+      <!-- top players and top blogs -->
+      <section>
+        <!-- top players -->
+        <div class="top-players">
+          <h1 id="player-title" class="section-heading">Top Player</h1>
+
+          <div class="players">
+            <div class="player">
+              <img src="./images/players/player-1.png" alt="" />
+              <h3>John Smith</h3>
+            </div>
+            <div class="player">
+              <img src="./images/players/player-2.png" alt="" />
+              <h3>Pro Rasel</h3>
+            </div>
+            <div class="player">
+              <img src="./images/players/player-3.png" alt="" />
+              <h3>Abu Sufian</h3>
+            </div>
+            <div class="player">
+              <img src="./images/players/player-4.png" alt="" />
+              <h3>Shajedul Karim</h3>
+            </div>
+            <div class="player">
+              <img src="./images/players/player-5.png" alt="" />
+              <h3>Maruf Ahmed</h3>
+            </div>
+            <div class="player">
+              <img src="./images/players/player-6.png" alt="" />
+              <h3>Mujahid</h3>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+        <!-- top blogs -->
+        <!-- .top-blogs>.blogs>.article*6>img[src="./images/blogs/blog-$.png"]+h2.title{Title}+p.author{By Author} -->
+        <div class="top-blogs">
+          <h1 id="blog-title" class="section-heading">Top Blog</h1>
+          <div class="blogs">
+            <article>
+              <div class="blog-image">
+                <img src="./images/blogs/blog-1.png" alt="" />
+              </div>
+              <div class="blog-info">
+                <h2 class="title">13 of My Favorite UI/UX Goodies</h2>
+                <p class="author">By <span>Danny Sapio</span></p>
+              </div>
+            </article>
+            <article>
+              <div class="blog-image">
+                <img src="./images/blogs/blog-2.png" alt="" />
+              </div>
+              <div class="blog-info">
+                <h2 class="title">UI cheat sheet: list vs grids</h2>
+                <p class="author">By <span>Tess Gadd</span></p>
+              </div>
+            </article>
+            <article>
+              <div class="blog-image">
+                <img src="./images/blogs/blog-3.png" alt="" />
+              </div>
+              <div class="blog-info">
+                <h2 class="title">7 typography tips for interface design</h2>
+                <p class="author">By <span>Jeremiah Lam</span></p>
+              </div>
+            </article>
+            <article>
+              <div class="blog-image">
+                <img src="./images/blogs/blog-4.png" alt="" />
+              </div>
+              <div class="blog-info">
+                <h2 class="title">Your logo is copied</h2>
+                <p class="author">By <span>Ferdinand Vogler</span></p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- Latest Course -->
+      <section>
+        <div class="latest-course">
+          <h1 class="section-heading">Latest Course</h1>
+          <div class="courses">
+            <div class="course">
+              <div class="course-info">
+                <img src="./images/courses/course-1.png" alt="" />
+                <h2 class="course-title">React - The Complete Guide 2022</h2>
+                <p class="course-author">Reed Krakoff.</p>
+              </div>
+              <div class="course-details">
+                <div class="course-details">
+                  <div class="rating">
+                    <p>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </p>
+
+                    <p>4.5</p>
+                  </div>
+                  <div class="duration">
+                    <p><i class="far fa-clock"></i> 01:30 hr</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="course">
+              <div class="course-info">
+                <img src="./images/courses/course-2.png" alt="" />
+                <h2 class="course-title">
+                  Powerpoint 2020 Master Powerpoint Cour
+                </h2>
+                <p class="course-author">Walter Scott</p>
+              </div>
+              <div class="course-details">
+                <div class="rating">
+                  <p>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </p>
+
+                  <p>4.3</p>
+                </div>
+                <div class="duration">
+                  <p><i class="far fa-clock"></i> 01:20 hr</p>
+                </div>
+              </div>
+            </div>
+            <div class="course">
+              <div class="course-info">
+                <img src="./images/courses/course-3.png" alt="" />
+                <h2 class="course-title">
+                  The Complete JavaScript Course 2022
+                </h2>
+                <p class="course-author">Reed Krakoff.</p>
+              </div>
+              <div class="course-details">
+                <div class="rating">
+                  <p>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </p>
+
+                  <p>4.5</p>
+                </div>
+                <div class="duration">
+                  <p><i class="far fa-clock"></i> 01:30 hr</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="top-review">
+          <h1 class="section-heading">Top Review</h1>
+          <ul id="review">
+            <li>Review 1</li>
+            <li>Review 2</li>
+            <li>Review 3</li>
+          </ul>
+          <button id="review-button" class="primary-button">Add review</button>
+          <br />
+          <input id="number-count" type="number" value="0" />
+          <br />
+          <button id="count-button" class="primary-button">Count</button>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        <h1>Leader Board</h1>
+        <p>Copyright © 2022 MD. MASUM BILLAH</p>
+      </div>
+    </footer>
+    <!-- Script -->
+    <script src="./app.js"></script>
+  </body>
+</html>
